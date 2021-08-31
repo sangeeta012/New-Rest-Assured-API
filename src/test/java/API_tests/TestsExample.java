@@ -20,6 +20,7 @@ public class TestsExample {
 	@Test
 	public void testGet_1() {
 
+		//First Example
 		Response response = RestAssured.get("https://reqres.in/api/users?page=2");
 
 		System.out.println(response.getStatusCode());
