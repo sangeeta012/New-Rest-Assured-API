@@ -20,7 +20,7 @@ public class TestsExample {
 	@Test
 	public void testGet_1() {
 
-		//First Example
+		//First Example-comit
 		Response response = RestAssured.get("https://reqres.in/api/users?page=2");
 
 		System.out.println(response.getStatusCode());
@@ -37,7 +37,7 @@ public class TestsExample {
 
 	@Test
 	public void testGET_2() {
-
+		//Second Example
 		given().
 			get("api/users?page=2").
 		then().
