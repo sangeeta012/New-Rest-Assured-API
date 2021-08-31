@@ -37,7 +37,7 @@ public class TestsExample {
 
 	@Test
 	public void testGET_2() {
-
+		//Second Example
 		given().
 			get("api/users?page=2").
 		then().
