@@ -21,6 +21,7 @@ public class TestsExample {
 	public void testGet_1() {
 
 		//First Example
+		//comit-2
 		Response response = RestAssured.get("https://reqres.in/api/users?page=2");
 
 		System.out.println(response.getStatusCode());
