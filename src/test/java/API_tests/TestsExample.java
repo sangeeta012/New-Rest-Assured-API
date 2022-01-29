@@ -9,6 +9,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import static org.hamcrest.Matchers.*;
 
+//sangeeta
 public class TestsExample {
 
 	@BeforeTest
@@ -20,8 +21,7 @@ public class TestsExample {
 	@Test
 	public void testGet_1() {
 
-		//First Example
-		//comit-2
+//program
 		Response response = RestAssured.get("https://reqres.in/api/users?page=2");
 
 		System.out.println(response.getStatusCode());
